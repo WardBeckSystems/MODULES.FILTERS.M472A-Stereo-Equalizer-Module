@@ -1,0 +1,61 @@
+{
+ "code": "M472A",
+ "connector": "RTO-144",
+ "type": "M472A - Stereo Equalizer",
+ "series": null,
+ "contacts": "11 contacts",
+ "verified": null,
+ "derived": false,
+ "variant_of": null,
+ "pins": [
+  {
+   "pin": "4",
+   "signal": "EQ(UNBALANCED) IN LEFT",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M472A/M472A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "6",
+   "signal": "EQ(UNBALANCED) OUT LEFT",
+   "kind": "out",
+   "pair": "A2",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M472A/M472A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "9",
+   "signal": "EQ(UNBALANCED) IN RIGHT",
+   "kind": "in",
+   "pair": "A3",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M472A/M472A.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "11",
+   "signal": "EQ(UNBALANCED) OUT RIGHT",
+   "kind": "out",
+   "pair": "A4",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M472A/M472A.rto144.json",
+   "page": 1
+  }
+ ],
+ "straps": [],
+ "power": [],
+ "sources": [
+  "Engineering/RTO-144/M472A/M472A.rto144.json"
+ ]
+}

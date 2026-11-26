@@ -23,7 +23,7 @@ Wiki page: [M472A](../../../../PAGES/M472A.md)
 - **Title block:** (204, 45)–(330, 70) mm: WBS WAAD-BECK BYSTEMB
 - **Wiring (first pass):** 66 connected wire groups from 137 runs; labelled ends: 130 mm → INSERT; 72 mm → INSERT; 62 mm → RiGhT; 12 mm → RiGhT; 11 mm → RiGhT
 
-Every curve, box, word and wire group: [1986 - M472A - 472-01-002 - EQUALIZER MODULE FUNCTIONAL (traced).json](../SCHEMATICS/1986%20-%20M472A%20-%20472-01-002%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20(traced).json) (the CAD file: `1986 - M472A - 472-01-002 - EQUALIZER MODULE FUNCTIONAL (traced).dxf`).
+Every curve, box, word and wire group: [1986 - M472A - 472-01-002 - EQUALIZER MODULE FUNCTIONAL (traced).json](../SCHEMATICS/1986%20-%20M472A%20-%20472-01-002%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20%28traced%29.json) (the CAD file: `1986 - M472A - 472-01-002 - EQUALIZER MODULE FUNCTIONAL (traced).dxf`).
 
 ## Full text
 

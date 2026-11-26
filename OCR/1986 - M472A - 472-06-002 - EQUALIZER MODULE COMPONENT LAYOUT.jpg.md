@@ -20,7 +20,7 @@ Wiki page: [M472A](../../../../PAGES/M472A.md)
 - **Words (OCR):** 153 in 135 lines: 58/6 · 33410 · 58, · 342* · 379 · 7725 · 4a5 :0-056 · WES · 341820 · Ex · 340 · 320
 - **Title block:** (58, 43)–(328, 331) mm: 14-110 CANADA · 220p · 833 · 333# · ISSUE · R32 · R80 @k · 346 · 7435 .025 · 351 · 345 · R37 · 330 · 334 335 33/10 · C40 · 53/10 · 7/35 · 'CCMB: VAL- 300OP · Czo · R1! · 355 · 333 · 4BS 40-055 · 013 ·
 
-Every curve, box, word and wire group: [1986 - M472A - 472-06-002 - EQUALIZER MODULE COMPONENT LAYOUT (traced).json](../SCHEMATICS/1986%20-%20M472A%20-%20472-06-002%20-%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20(traced).json) (the CAD file: `1986 - M472A - 472-06-002 - EQUALIZER MODULE COMPONENT LAYOUT (traced).dxf`).
+Every curve, box, word and wire group: [1986 - M472A - 472-06-002 - EQUALIZER MODULE COMPONENT LAYOUT (traced).json](../SCHEMATICS/1986%20-%20M472A%20-%20472-06-002%20-%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20%28traced%29.json) (the CAD file: `1986 - M472A - 472-06-002 - EQUALIZER MODULE COMPONENT LAYOUT (traced).dxf`).
 
 ## Full text
 

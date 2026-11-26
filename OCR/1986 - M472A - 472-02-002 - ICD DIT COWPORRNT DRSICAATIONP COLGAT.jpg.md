@@ -23,7 +23,7 @@ Wiki page: [M472A](../../../../PAGES/M472A.md)
 - **Title block:** (204, 46)–(330, 72) mm: WBS · WAAD-BECK BYBTEMS
 - **Wiring (first pass):** 114 connected wire groups from 457 runs; labelled ends: 71 mm → sgL; 28 mm → 0.022; 27 mm → 0.022; 20 mm → Left qutbut; 6 mm → ELOr
 
-Every curve, box, word and wire group: [1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT (traced).json](../SCHEMATICS/1986%20-%20M472A%20-%20472-02-002%20-%20ICD%20DIT%20COWPORRNT%20DRSICAATIONP%20COLGAT%20(traced).json) (the CAD file: `1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT (traced).dxf`).
+Every curve, box, word and wire group: [1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT (traced).json](../SCHEMATICS/1986%20-%20M472A%20-%20472-02-002%20-%20ICD%20DIT%20COWPORRNT%20DRSICAATIONP%20COLGAT%20%28traced%29.json) (the CAD file: `1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT (traced).dxf`).
 
 ## Full text
 

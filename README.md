@@ -1,16 +1,16 @@
-# M472A · Filters
+# M472A Stereo Equalizer Module · Filters
 
 Ward-Beck Systems M472A, 1986|19. Wiki page: [M472A on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M472A.html)
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 26 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 3 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 5 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 19 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 0 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 0 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 6 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 33 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 8 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 6 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 20 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 1 |
+| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 9 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 28 |
 
 <!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
@@ -57,17 +57,8 @@ The left channel of the M472A Stereo Equalizer wili be described. Input The unba
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._
 
 <table>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKYUdlN2s1THAxckU/view?resourcekey=0-WsMRo9jMwQiuQjjYXduCvg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKYUdlN2s1THAxckU&resourcekey=0-WsMRo9jMwQiuQjjYXduCvg" width="240" alt="19xx - M472A - DOC - STEREO L SERIES - P009 - B77012-04-011 L.jpg"></a><br><sub>19xx - M472A - DOC - STEREO L SERIES - P009 - B77012-04-011 L</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKYUdlN2s1THAxckU/view?resourcekey=0-WsMRo9jMwQiuQjjYXduCvg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKYUdlN2s1THAxckU&resourcekey=0-WsMRo9jMwQiuQjjYXduCvg" width="240" alt="19xx - M472A - DOC - STEREO L SERIES - P009 - B77012-04-011 L.jpg"></a><br><sub>19xx - M472A - DOC - STEREO L SERIES - P009 - B77012-04-011 L · <a href="MECHANICAL/19xx%20-%20M472A%20-%20DOC%20-%20STEREO%20L%20SERIES%20-%20P009%20-%20B77012-04-011%20L%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
-
-## 3-D model
-
-[`MECHANICAL/M472A.stl`](MECHANICAL/M472A.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M472A)
-
-- **Size:** 41 × 178 mm panel, 165 mm deep, 3.2 mm plate (assumed: 1.6" x 7" x 6.5", the common module)
-- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M472A - front panel.svg`)
-- no drawing of the front panel: the panel is blank
-- Made by `tools/module_models.py` (→ `MECHANICAL/M472A.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
 
 ## Schematics
 
@@ -76,7 +67,7 @@ _Electrical drawings: schematics (-02-), functional diagrams (-01-), component l
 <table>
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKUkwzeWJRdkRqb28/view?resourcekey=0-uDRBodxCJz2NCtTh8_jjtg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKUkwzeWJRdkRqb28&resourcekey=0-uDRBodxCJz2NCtTh8_jjtg" width="240" alt="1986 - M472A - 472-01-002 - EQUALIZER MODULE FUNCTIONAL.jpg"></a><br><sub>1986|19 · 472-01-002 - EQUALIZER MODULE FUNCTIONAL · <a href="SCHEMATICS/1986%20-%20M472A%20-%20472-01-002%20-%20EQUALIZER%20MODULE%20FUNCTIONAL%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKWUdfb1Z4b2dLQk0/view?resourcekey=0-LkDgaH-IZP73hpsTPAeCTw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKWUdfb1Z4b2dLQk0&resourcekey=0-LkDgaH-IZP73hpsTPAeCTw" width="240" alt="1986 - M472A - 472-01-002.jpg"></a><br><sub>1986|19 · 472-01-002 · <a href="SCHEMATICS/1986%20-%20M472A%20-%20472-01-002%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKWERWZXM2RDhsTXc/view?resourcekey=0--zwtr2wF9XJbpQyBKJuhGw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKWERWZXM2RDhsTXc&resourcekey=0--zwtr2wF9XJbpQyBKJuhGw" width="240" alt="1986 - M472A - 472-02-002 - CHASS VIOO AZO.jpg"></a><br><sub>1986|19 · 472-02-002 - CHASS VIOO AZO · <a href="SCHEMATICS/1986%20-%20M472A%20-%20472-02-002%20-%20CHASS%20VIOO%20AZO%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKUUxwZzJ2U0I4b3M/view?resourcekey=0-qP6G4AdqQ9ceZSLAf8MZDA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKUUxwZzJ2U0I4b3M&resourcekey=0-qP6G4AdqQ9ceZSLAf8MZDA" width="240" alt="1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT.jpg"></a><br><sub>1986|19 · 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT · <a href="SCHEMATICS/1986%20-%20M472A%20-%20472-02-002%20-%20ICD%20DIT%20COWPORRNT%20DRSICAATIONP%20COLGAT%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKNS0xRXdYd09VMGM/view?resourcekey=0-F9nU5d403yHspSyWOthnCg" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKNS0xRXdYd09VMGM&resourcekey=0-F9nU5d403yHspSyWOthnCg" width="240" alt="1986 - M472A - 472-02-002 - UZA AJR- RJO LMUM.jpg"></a><br><sub>1986|19 · 472-02-002 - UZA AJR- RJO LMUM · <a href="SCHEMATICS/1986%20-%20M472A%20-%20472-02-002%20-%20UZA%20AJR-%20RJO%20LMUM%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKWWo1YTdWUEtMRHc/view?resourcekey=0-gGUHBQIaVkjLrawFR82iEw" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKWWo1YTdWUEtMRHc&resourcekey=0-gGUHBQIaVkjLrawFR82iEw" width="240" alt="1986 - M472A - 472-06-002 - EQUALIZER MODULE COMPONENT LAYOUT.jpg"></a><br><sub>1986|19 · 472-06-002 - EQUALIZER MODULE COMPONENT LAYOUT · <a href="SCHEMATICS/1986%20-%20M472A%20-%20472-06-002%20-%20EQUALIZER%20MODULE%20COMPONENT%20LAYOUT%20(EXTRACTED).svg">vectors</a></sub></td></tr>
-<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKYXhFNGtlRnVkYjQ/view?resourcekey=0-mx_JrQji49hFib1D15qdLA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKYXhFNGtlRnVkYjQ&resourcekey=0-mx_JrQji49hFib1D15qdLA" width="240" alt="1986 - M472A - P018 - B 472-047-004 L.jpg"></a><br><sub>1986|19 · P018 - B 472-047-004 L</sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKS1VibTdJU0U1cXc/view?resourcekey=0-tx2RaDZoqVCupXtzGl7Kag" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKS1VibTdJU0U1cXc&resourcekey=0-tx2RaDZoqVCupXtzGl7Kag" width="240" alt="1986 - M472A - P019 - B 472-047-004 R.jpg"></a><br><sub>1986|19 · P019 - B 472-047-004 R</sub></td></tr>
+<tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKYXhFNGtlRnVkYjQ/view?resourcekey=0-mx_JrQji49hFib1D15qdLA" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKYXhFNGtlRnVkYjQ&resourcekey=0-mx_JrQji49hFib1D15qdLA" width="240" alt="1986 - M472A - P018 - B 472-047-004 L.jpg"></a><br><sub>1986|19 · P018 - B 472-047-004 L · <a href="SCHEMATICS/1986%20-%20M472A%20-%20P018%20-%20B%20472-047-004%20L%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/0B0yR0b5T78SKS1VibTdJU0U1cXc/view?resourcekey=0-tx2RaDZoqVCupXtzGl7Kag" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=0B0yR0b5T78SKS1VibTdJU0U1cXc&resourcekey=0-tx2RaDZoqVCupXtzGl7Kag" width="240" alt="1986 - M472A - P019 - B 472-047-004 R.jpg"></a><br><sub>1986|19 · P019 - B 472-047-004 R · <a href="SCHEMATICS/1986%20-%20M472A%20-%20P019%20-%20B%20472-047-004%20R%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
 
 ## Pinouts
@@ -119,7 +110,14 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 - [1986 - M472A - 472-02-002 - CHASS VIOO AZO.kicad_sch](KICAD/1986%20-%20M472A%20-%20472-02-002%20-%20CHASS%20VIOO%20AZO.kicad_sch)
 - [1986 - M472A - 472-02-002 - ICD DIT COWPORRNT DRSICAATIONP COLGAT.kicad_sch](KICAD/1986%20-%20M472A%20-%20472-02-002%20-%20ICD%20DIT%20COWPORRNT%20DRSICAATIONP%20COLGAT.kicad_sch)
 - [1986 - M472A - 472-02-002 - UZA AJR- RJO LMUM.kicad_sch](KICAD/1986%20-%20M472A%20-%20472-02-002%20-%20UZA%20AJR-%20RJO%20LMUM.kicad_sch)
+- [1986 - M472A - P018 - B 472-047-004 L.kicad_sch](KICAD/1986%20-%20M472A%20-%20P018%20-%20B%20472-047-004%20L.kicad_sch)
+- [1986 - M472A - P019 - B 472-047-004 R.kicad_sch](KICAD/1986%20-%20M472A%20-%20P019%20-%20B%20472-047-004%20R.kicad_sch)
 - [M472A.kicad_sym](KICAD/M472A.kicad_sym)
+- [index.html](KICAD/index.html)
+
+## Software
+
+- [index.html](SOFTWARE/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)

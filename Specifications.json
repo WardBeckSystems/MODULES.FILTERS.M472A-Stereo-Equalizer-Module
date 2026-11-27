@@ -1,0 +1,249 @@
+{
+ "module": "M472A",
+ "title": "M472A STEREO EQUALIZER MODULE",
+ "source": {
+  "file": "MANUALS/1986 - M472A - P002 - 1-1.jpg",
+  "page": 1
+ },
+ "ocr_quality": 0.95,
+ "read": "OCR of the technical data sheet; usual OCR slips put right, the rest as read: check against the page",
+ "specifications": [
+  {
+   "name": "Gain",
+   "key": "gain",
+   "text": "Unity +/-0.25 dB",
+   "quantities": [
+    {
+     "value": 0.25,
+     "unit": "dB",
+     "tolerance": true
+    }
+   ]
+  },
+  {
+   "name": "Frequency response",
+   "key": "frequency_response",
+   "text": "+/-0.5 dB from 20 Hz to 20 kHz with the equalizer inserted and cut/boost controls in the detent pos ton",
+   "quantities": [
+    {
+     "value": 0.5,
+     "unit": "dB",
+     "tolerance": true
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Noise",
+   "key": "noise",
+   "text": "-90 dBm absolute (20 Hz to 20 kHz) equalizer cut/boost controls in the detent position",
+   "quantities": [
+    {
+     "value": -90,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    }
+   ]
+  },
+  {
+   "name": "Harmonic distortion",
+   "key": "harmonic_distortion",
+   "text": "Less than 0.1% from 20 Hz to 20 kHz at +20 dBm output Level or Less Less than 0.01% at kHz at +20 dBm output Level.",
+   "quantities": [
+    {
+     "value": 0.1,
+     "unit": "%"
+    },
+    {
+     "value": 20,
+     "unit": "Hz"
+    },
+    {
+     "value": 20,
+     "unit": "kHz"
+    },
+    {
+     "value": 20,
+     "unit": "dBm"
+    },
+    {
+     "value": 0.01,
+     "unit": "%"
+    },
+    {
+     "value": 20,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Source impedance",
+   "key": "source_impedance",
+   "text": "Less than 10 ohms unbalanced",
+   "quantities": [
+    {
+     "value": 10,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Input impedance",
+   "key": "input_impedance",
+   "text": "Greater than 4k ohms unbalanced"
+  },
+  {
+   "name": "Input level",
+   "key": "input_level",
+   "text": "~6dBm nominal +20 dBm maximum.",
+   "quantities": [
+    {
+     "value": 6,
+     "unit": "dBm"
+    },
+    {
+     "value": 20,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Output impedance",
+   "key": "output_impedance",
+   "text": "Less than 50 ohms unbalanced",
+   "quantities": [
+    {
+     "value": 50,
+     "unit": "ohms"
+    }
+   ]
+  },
+  {
+   "name": "Load impedance",
+   "key": "load_impedance",
+   "text": "Sk ohms or greater"
+  },
+  {
+   "name": "Output level",
+   "key": "output_level",
+   "text": "-6 dBm nominal +22 dBm maximum.",
+   "quantities": [
+    {
+     "value": -6,
+     "unit": "dBm"
+    },
+    {
+     "value": 22,
+     "unit": "dBm"
+    }
+   ]
+  },
+  {
+   "name": "Channel separation",
+   "key": "channel_separation",
+   "text": "Greater than 60 dB",
+   "quantities": [
+    {
+     "value": 60,
+     "unit": "dB"
+    }
+   ]
+  },
+  {
+   "name": "Phasing",
+   "key": "phasing",
+   "text": "Input and output are in phase with the equalizing controls in the 0 detent position."
+  },
+  {
+   "name": "Equalization tracking",
+   "key": "equalization_tracking",
+   "text": "Within 0.5 dB",
+   "quantities": [
+    {
+     "value": 0.5,
+     "unit": "dB"
+    }
+   ]
+  },
+  {
+   "name": "Power requirements",
+   "key": "power_requirement",
+   "text": "+/-25 volts dc 65 mA.",
+   "quantities": [
+    {
+     "value": 25,
+     "unit": "volts dc",
+     "tolerance": true
+    },
+    {
+     "value": 65,
+     "unit": "mA"
+    }
+   ]
+  },
+  {
+   "name": "Ambient temperature",
+   "key": "ambient_temperature",
+   "text": "Dimensions to 60 degrees Celsius. 1.60\" wide 7.00\" high 6.50\" deep (41 Mm 178 Mm 165 mm).",
+   "quantities": [
+    {
+     "value": 60,
+     "unit": "degrees Celsius"
+    },
+    {
+     "value": 1.6,
+     "unit": "\""
+    },
+    {
+     "value": 7,
+     "unit": "\""
+    },
+    {
+     "value": 6.5,
+     "unit": "\""
+    },
+    {
+     "value": 41,
+     "unit": "Mm"
+    },
+    {
+     "value": 178,
+     "unit": "Mm"
+    },
+    {
+     "value": 165,
+     "unit": "mm"
+    }
+   ]
+  },
+  {
+   "name": "Weight",
+   "key": "weight",
+   "text": "M472A oz (0,565 kg) net.",
+   "quantities": [
+    {
+     "value": 472,
+     "unit": "A"
+    },
+    {
+     "value": 565,
+     "unit": "kg"
+    }
+   ]
+  }
+ ]
+}

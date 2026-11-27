@@ -13,6 +13,45 @@ Ward-Beck Systems M472A, 1986|19. Wiki page: [M472A on WBSps.ca](https://wardbec
 | [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 6 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 28 |
 
+<!-- module data: tools/module_specs.py, tools/forum_quotes.py -->
+
+**On the WBSps forum (2006|39 - 2014|47):** [1 topic](FORUM.md): what owners and technicians said about it.
+
+## Specifications
+
+From the technical data sheet: [1986 - M472A - P002 - 1-1.jpg](MANUALS/1986%20-%20M472A%20-%20P002%20-%201-1.jpg) page 1 (read by OCR; check against the page). As data: [`Specifications.json`](Specifications.json).
+
+| | |
+|---|---|
+| **Gain** | Unity +/-0.25 dB |
+| **Frequency response** | +/-0.5 dB from 20 Hz to 20 kHz with the equalizer inserted and cut/boost controls in the detent pos ton |
+| **Noise** | -90 dBm absolute (20 Hz to 20 kHz) equalizer cut/boost controls in the detent position |
+| **Harmonic distortion** | Less than 0.1% from 20 Hz to 20 kHz at +20 dBm output Level or Less Less than 0.01% at kHz at +20 dBm output Level. |
+| **Source impedance** | Less than 10 ohms unbalanced |
+| **Input impedance** | Greater than 4k ohms unbalanced |
+| **Input level** | ~6dBm nominal +20 dBm maximum. |
+| **Output impedance** | Less than 50 ohms unbalanced |
+| **Load impedance** | Sk ohms or greater |
+| **Output level** | -6 dBm nominal +22 dBm maximum. |
+| **Channel separation** | Greater than 60 dB |
+| **Phasing** | Input and output are in phase with the equalizing controls in the 0 detent position. |
+| **Equalization tracking** | Within 0.5 dB |
+| **Power requirements** | +/-25 volts dc 65 mA. |
+| **Ambient temperature** | Dimensions to 60 degrees Celsius. 1.60&quot; wide 7.00&quot; high 6.50&quot; deep (41 Mm 178 Mm 165 mm). |
+| **Weight** | M472A oz (0,565 kg) net. |
+
+## Circuit description
+
+From [1986 - M472A - P006 - 4-1.jpg](MANUALS/1986%20-%20M472A%20-%20P006%20-%204-1.jpg) page 1 (read by OCR; check against the pages). As data: [`CircuitDescription.json`](CircuitDescription.json).
+
+<details><summary>Read it</summary>
+
+The left channel of the M472A Stereo Equalizer wili be described. Input The unbalanced audio input appears at pin of the module connector It is routed directly to the normally closed contact of Equalizer Insert switch SWZA and to buffer amplifier U1B. Mid-Frequensy Equalizer The output from the input buffer amplifier 418 feeds summing amplifier UIA and the Mid-Frequency cut/boost control R4: R4 bridges between the input and output of summing amplifier UIA. The arm of Rb connects the signal to the state variable filter U3A, U3B, and U4A. C6 through C9 along with R15 and R18 determine the resonant frequency of the filter_ R8 adjusts the overall filter gain and therefore its 0 High 0 is nominally four and Low is nominally two. The filter output is fed back into summing amplifier UIA via C5_ This feedback signa/ adds or subtracts from the main signal in proportion to its magnitude and Phase relationship. Lew_Frequency Equalizer The output from UIA feeds the audio signal to the low frequency summing amplifier U2B, Low Frequency cutlboost control R23 bridges across 42B, with the arm of this control coupling the audio signal through C11 to Low-pass filter u4B. The frequency determining components of this filter are the LF shelf control Rz7, Rz9, C12 and C13. The filter output is fed back to summing amplifier 028 through R30. Dependent upon the setting of cut/boost control R23 the signal, is added or subtracted from the main signa/ path thus affecting the frequency response characteristics of the Low Frequency portion of the audio spectrum.
+
+</details>
+
+<!-- /module data -->
+
 ## Mechanical
 
 _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- drawings), AutoCAD files, each with its `(EXTRACTED).svg` vectors; `<module> - front panel.svg` is the front panel as vectors._

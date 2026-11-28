@@ -1,5 +1,5 @@
 # 1986 - M472A - 472-06-002 - EQUALIZER MODULE COMPONENT LAYOUT.jpg
-Wiki page: [M472A](../../../../PAGES/M472A.md)
+Wiki page: [M472A](../)
 
 
 - **Year:** 1986 (module estimate (manual_issue))

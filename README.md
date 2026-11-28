@@ -1,6 +1,6 @@
 # M472A Stereo Equalizer Module · Filters
 
-Ward-Beck Systems M472A, 1986|19. Wiki page: [M472A on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M472A.html)
+Ward-Beck Systems M472A, 1986|19. Wiki page: [M472A on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.FILTERS.M472A-Stereo-Equalizer-Module/)
 
 | Folder | What is in it | Files |
 |---|---|---|
